@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+#link {
+    height: auto;
+    width: auto;
+}
+
+@media screen and (max-width: 768px) { 
+
+    #nav{
+        height: 70px;
+        padding: 0 29px;
+    }
+
+    #hamb {
+        display: flex;
+        align-items: center;
+    }
+
+    #link {
+        width: 100%;
+    }
+}
